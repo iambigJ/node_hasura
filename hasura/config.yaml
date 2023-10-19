@@ -1,0 +1,7 @@
+version: 3
+endpoint:  https://hasura-cloud-app.io
+admin_secret: ali@1263
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
